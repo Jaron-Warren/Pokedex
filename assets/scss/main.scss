@@ -15,5 +15,33 @@ main {
   flex-grow: 1;
 }
 
+body {
+  background-color: #d30a40;
+}
 
+.text-gold {
+  color: #feca1b;
+}
 
+.landscape {
+  min-height: 45vh;
+  max-height: 45vh;
+
+}
+
+.portrait {
+  min-height: 92vh;
+  max-height: 92vh;
+}
+
+.action {
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(194, 194, 194);
+  }
+}
+
+.sidebar-scroll {
+  max-height: 80%;
+  overflow-y: auto;
+}
